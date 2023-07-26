@@ -1,0 +1,205 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+.yellowtxt {
+  color: yellow;
+}
+.whitetext {
+  color: white;
+  font-weight: bold;
+}
+body {
+  background-color: rgb(3, 3, 3);
+}
+.header {
+  margin-top: 10px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  padding: 5px 0px;
+}
+.clip {
+  height: 35px;
+  position: relative;
+  right: 22%;
+}
+.search {
+  height: 35px;
+  position: relative;
+  right: 20%;
+}
+.SCREEN {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
+.RANT {
+  color: yellow;
+  font-weight: bold;
+  font-size: 50px;
+}
+.bell {
+  height: 20px;
+  position: relative;
+  left: 23%;
+  color: white;
+}
+.belltext {
+  position: relative;
+  left: 24%;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+.topline {
+  height: 0.1px;
+  width: 100%;
+  background-color: rgb(134, 133, 133);
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0px;
+}
+li {
+  display: flex;
+  color: white;
+  list-style: none;
+  display: inline-block;
+  padding: 10px 10px;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  gap: 3%;
+}
+.box1 img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  height: 390px;
+  margin-top: 6%;
+}
+.box1 #yellow {
+  color: yellow;
+  font-weight: bold;
+  margin-left: 42%;
+  margin-top: -40%;
+}
+.box1 #whit {
+  display: flex;
+  align-items: flex-start;
+  color: white;
+  font-weight: bold;
+  margin-left: 42%;
+  font-size: 16px;
+}
+.box2 {
+  background-color: rgb(0, 0, 0);
+  height: 390px;
+  width: 700px;
+  margin-right: %;
+  margin-top: 1.4%;
+}
+
+.first {
+  background-color: white;
+  height: 190px;
+  width: 340px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+.first #firstyellow {
+  color: yellow;
+  margin-top: -22%;
+  margin-left: 3%;
+}
+.second #firstwhite {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+.second #firstyellow {
+  color: yellow;
+  margin-top: -22%;
+  margin-left: 3%;
+}
+.third #firstwhite {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+.third #firstyellow {
+  color: yellow;
+  margin-top: -22%;
+  margin-left: 3%;
+}
+.first #firstwhite {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+.fourth #firstwhite {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+.fourth #firstyellow {
+  color: yellow;
+  margin-top: -22%;
+  margin-left: 3%;
+}
+.second {
+  background-color: white;
+  height: 190px;
+  width: 340px;
+  float: right;
+  margin-top: -26%;
+  margin-right: 1%;
+}
+.third {
+  background-color: white;
+  height: 190px;
+  width: 340px;
+  position: relative;
+  top: 15px;
+  left: 5px;
+}
+.fourth {
+  background-color: white;
+  height: 190px;
+  width: 340px;
+  float: right;
+  position: relative;
+  bottom: 175px;
+  right: 7px;
+}
+
+.bottomline {
+  background-color: white;
+  height: 2px;
+  width: 80%;
+  margin-left: 10%;
+}
+.endp {
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin-left: 10%;
+}
+.footer {
+  margin-top: 5%;
+}
